@@ -1,0 +1,50 @@
+
+h3 {
+    color: #ff0099;}
+body {
+    font-family: 'Courier Prime', monospace;
+    background-image: url(assets/hatter.png);
+    font-size: 21px;
+    line-height: 1.5em;
+    margin: 0;
+    font-weight: 300;}
+.szoveg {
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;}
+.szoveg h2 {
+    font-weight: bolder;}
+.container {
+    width: 80%;
+    margin: 0 auto;}
+header {
+    background-color: #333333;
+    position: fixed;
+    width: 100vw;
+    font-size: 15px;}
+header::after {
+    content: '';
+    display: table;
+    clear: both;}
+.logo {
+    float: left;  
+    padding: 10px 0;}
+nav {
+    float: right;}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;}
+nav li {
+    display: inline-block;
+    margin-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;}
+nav a {
+    color: #ff0099;}
+hr { 
+    width: 25px;
+    border-top: 3px dashed;}
+p {
+    margin-bottom: 5%;}
